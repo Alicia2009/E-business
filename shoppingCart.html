@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link type="text/css" href="style/reset.css" rel="stylesheet">
+    <link type="text/css" href="style/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="headerBar">
+    <div class="topBar">
+        <div class="commonWidth">
+            <div class="leftArea">
+                <a href="#" class="collect">收藏此站</a>
+            </div>
+            <div class="rightArea">
+                欢迎来到E电商！
+                <a href="#">[登录]</a><a href="#">[免费注册]</a>
+            </div>
+        </div>
+    </div>
+    <div class="logoBar">
+        <div class="commonWidth clearfix">
+            <div class="logo fleft">
+                <a href="#"><img src="images/logo.jpg" alt="E"></a>
+            </div>
+            <div class="step_box fright">
+                <div class="step">
+                </div>
+                <ul class="steps clearfix">
+                    <li class="step1">我的购物车</li>
+                    <li class="step2">填写核对订单</li>
+                    <li class="step3">订单提交成功</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="shoppingCart commonWidth">
+    <div class="shopping_item">
+        <h3>收货信息</h3>
+        <div class="form">
+            <div class="f_item">
+                <span class="label"><em>*</em>收&nbsp;货&nbsp;人：</span>
+                <input type="text" class="text" value="最多10个汉字">
+            </div>
+            <div class="f_item">
+                <span class="label"><em>*</em>详细地址：</span>
+                <input type="text" class="text detail" value="最多输入26个汉字">
+            </div>
+            <div class="f_item">
+                <span class="label"><em>*</em>选择地区：</span>
+                <select class="text">
+                    <option>北京市海淀区五环内</option>
+                    <option>昌平区</option>
+                    <option>朝阳区</option>
+                </select>
+            </div>
+            <div class="f_item">
+                <span class="label"><em>*</em>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</span>
+                <input type="text" class="text" value="如15825251111">
+            </div>
+            <div class="f_item">
+                <input type="button" value="确认收货地址" class="confirm">
+            </div>
+         </div>
+    </div>
+    <div class="shopping_item">
+        <h3>支付方式</h3>
+        <div class="form">
+            <div class="f_item">
+                <span class="label"><input type="radio" name="pay" class="" value="0">微信付款</span>
+                <span>用微信扫一扫就能支付！</span>
+            </div>
+            <div class="f_item">
+                <span class="label"><input type="radio" name="pay" class="" value="0">货到付款</span>
+                <span>货送到后再付款，刷卡或者现金支付。</span>
+            </div>
+        </div>
+    </div>
+    <div class="shopping_item">
+        <h3>发票信息</h3>
+        <div class="form">
+            <div class="f_item">
+                <input type="checkbox" class="checkbox" value="">
+                <span class="label">需要发票</span>
+            </div>
+            <div class="f_item">
+                <span class="label"><em>*</em>发票类型：</span>
+                <select class="text">
+                    <option>商业零售发票</option>
+                    <option>个人发票</option>
+                </select>
+            </div>
+            <div class="f_item">
+                <span class="label"><em>*</em>发票抬头：</span>
+                <select class="text">
+                    <option>个人</option>
+                    <option>公司</option>
+                </select>
+                <input type="text" class="text detail" value="阿里科技">
+            </div>
+            <div class="f_item">
+                <input type="button" value="保存" class="save">
+                <input type="button" value="取消" class="cancel">
+            </div>
+        </div>
+    </div>
+    <div class="shopping_item clearfix">
+        <h3>送货清单<a href="#" class="backToCart">返回购物车修改</a></h3>
+        <table class="myOrder">
+            <tr class="table_head">
+                <th>商品名称</th>
+                <th>单价</th>
+                <th>返现</th>
+                <th>商品数量</th>
+                <th>小计</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="p_item clearfix">
+                        <div class="p_img fleft">
+                            <a href="#" target="_blank">
+                                <img class="" src="images/p_img.jpg" title="p">
+                            </a>
+                        </div>
+                        <div class="p_info fleft">
+                            <div class="p_name">
+                               <p>海信冰箱三门 BCD-202D(银色)</p>
+                            </div>
+                            <p>【赠品】保鲜盒-海信专属赠品</p>
+                        </div>
+                    </div>
+                </td>
+                <td>￥1458.00</td>
+                <td>￥0.00</td>
+                <td>2</td>
+                <td>￥1458.00</td>
+            </tr>
+        </table>
+    </div>
+    <div class="shopping_item">
+        <h3>订单结算</h3>
+        <div class="form clearfix">
+            <div class="f_item fright">
+                <p>总计<span class="sum_value">￥1458.00</span></p>
+                <input type="button" value="提交订单" class="submit">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p><a href="#">电商简介</a><i>|</i><a href="#">电商公告</a><i>|</i><a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：400-000-8888</p>
+    <p>Copyright &copy; 2006 - 2014 版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+    <p class="pics"><a href="#"><img src="images/web.jpg" alt="logo"></a>
+        <a href="#"><img src="images/web.jpg" alt="logo"></a>
+        <a href="#"><img src="images/web.jpg" alt="logo"></a>
+        <a href="#"><img src="images/web.jpg" alt="logo"></a>
+    </p>
+</div>
+</body>
+</html>

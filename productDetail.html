@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品介绍页</title>
+    <link type="text/css" href="style/reset.css" rel="stylesheet">
+    <link type="text/css" href="style/main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zoom.js"></script>
+</head>
+<body>
+<div class="headerBar">
+    <div class="topBar">
+        <div class="commonWidth">
+            <div class="leftArea">
+                <a href="#" class="collect">收藏此站</a>
+            </div>
+            <div class="rightArea">
+                欢迎来到E电商！
+                <a href="#">[登录]</a><a href="#">[免费注册]</a>
+            </div>
+        </div>
+    </div>
+    <div class="logoBar">
+        <div class="commonWidth">
+            <div class="logo fleft">
+                <a href="#"><img src="images/logo.jpg" alt="E"></a>
+            </div>
+            <div class="search_box fleft">
+                <input type="text" class="search_text fleft">
+                <input type="button" value="搜 索" class="search_btn">
+            </div>
+            <div class="shopCar fright">
+                <span class="shopText fleft">购物车</span>
+                <span class="shopNum fleft">10</span>
+            </div>
+        </div>
+    </div>
+    <div class="navBar">
+        <div class="commonWidth">
+            <div class="category fleft">
+                <h3>全部商品分类<i></i></h3>
+                <!--左侧弹出菜单-->
+                <div class="category_show hide">
+                    <dl class="category_item">
+                        <dt class="b"><a href="#">手机 </a><a href="#">数码 </a><a href="#" class="alink">合约机</a></dt>
+                        <dd><a href="#">荣耀3X </a><a href="#">单反 </a><a href="#">智能设备</a></dd>
+                    </dl>
+                    <dl class="category_item category_active">
+                        <dt class="b"><a href="#">手机 </a><a href="#">数码 </a><a href="#" class="alink">合约机</a></dt>
+                        <dd><a href="#">荣耀3X </a><a href="#">单反 </a><a href="#">智能设备</a></dd>
+                    </dl>
+                    <dl class="category_item">
+                        <dt class="b"><a href="#">手机 </a><a href="#">数码 </a><a href="#" class="alink">合约机</a></dt>
+                        <dd><a href="#">荣耀3X </a><a href="#">单反 </a><a href="#">智能设备</a></dd>
+                    </dl>
+                    <dl class="category_item">
+                        <dt class="b"><a href="#">手机 </a><a href="#">数码 </a><a href="#" class="alink">合约机</a></dt>
+                        <dd><a href="#">荣耀3X </a><a href="#">单反 </a><a href="#">智能设备</a></dd>
+                    </dl>
+                    <dl class="category_item">
+                        <dt class="b"><a href="#">手机 </a><a href="#">数码 </a><a href="#" class="alink">合约机</a></dt>
+                        <dd><a href="#">荣耀3X </a><a href="#">单反 </a><a href="#">智能设备</a></dd>
+                    </dl>
+                </div>
+                <!--右侧弹出菜单列表-->
+                <div class="category_list hide">
+                    <div class="wrap_box">
+                        <dl class="list_item">
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">平板电脑</a><a href="#">笔记本</a><a href="#">超级本</a><a href="#">上网本</a><a href="#">平板电脑</a><a href="#">台式机</a><a href="#">平板电脑</a><a href="#">平板电脑</a><a href="#">平板电脑</a><a href="#">平板电脑</a><a href="#">平板</a></dd>
+                        </dl>
+                        <dl class="list_item">
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">超级本</a><a href="#">上网本</a><a href="#">平板电脑</a><a href="#">台式机</a></dd>
+                        </dl>
+                        <dl class="list_item">
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">平板电脑</a><a href="#">超级本</a><a href="#">上网本</a><a href="#">平板电脑</a><a href="#">台式机</a></dd>
+                        </dl>
+                        <dl class="list_item">
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">超级本</a><a href="#">上网本</a><a href="#">平板电脑</a><a href="#">台式机</a></dd>
+                        </dl>
+                        <dl class="list_item">
+                            <dt>电脑整机</dt>
+                            <dd><a href="#">笔记本</a><a href="#">超级本</a><a href="#">上网本</a><a href="#">平板电脑</a><a href="#">台式机</a></dd>
+                        </dl>
+                        <!--两个独立的链接-->
+                        <div class="list_links">
+                            <a href="#">测试内容链接<span></span></a>
+                            <a href="#">第二个内容链接<span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav fleft">
+                <li><a href="#" class="active">数码城</a></li>
+                <li><a href="#">天黑黑</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">发现</a></li>
+                <li><a href="#">二手特卖</a></li>
+                <li><a href="#">名品会</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="userPosition commonWidth">
+    <strong><a href="#">首页</a></strong><span>&nbsp;&gt;&nbsp;</span><a href="#">平板电脑</a><span>&nbsp;&gt;&nbsp;</span><a href="#">苹果</a><span>&nbsp;&gt;&nbsp;</span><em>MINI2</em>
+</div>
+<div class="description_info commonWidth">
+    <div class="description clearfix">
+        <div class="leftArea" id="container">
+            <!--此处增加放大镜特效-->
+            <div id="small_box">
+                <!--放大镜-->
+                <div id="float_box">
+                </div>
+                <img src="images/description_img.jpg" alt="">
+            </div>
+            <div id="big_box">
+                <img src="images/description_imgBig.jpg" alt="" id="bigImg">
+            </div>
+            <ul class="small_imgs clearfix">
+                <li class="active"><a href="#"><img src="images/small_description.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/small_description.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/small_description.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/small_description.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/small_description.jpg" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="rightArea">
+            <div class="wrap_box">
+                <h3>全网底价 Apple 苹果 iPad mini 16G wifi版 平板电脑 前白后银 MD531CH/A 银白两色生
+                产批次不同混合发货</h3>
+                <div class="dl clearfix">
+                    <div class="dt">
+                        慕课价
+                    </div>
+                    <div class="dd">
+                        <span class="money"><em>￥</em>1999.00</span>
+                    </div>
+                </div>
+                <div class="dl clearfix">
+                    <div class="dt">
+                        优惠
+                    </div>
+                    <div class="dd">
+                        <span class="youhui"><i class="youhui_icon">满换购</i>购ipad加价优惠够配件或USB充电插座</span>
+                    </div>
+                </div>
+                <div class="choose_wrap">
+                    <div class="dl clearfix">
+                        <div class="dt">
+                            送到
+                        </div>
+                        <div class="dd goods">
+                            <select>
+                                <option>海淀区五环内</option>
+                                <option>昌平区</option>
+                                <option>朝阳区</option>
+                            </select>
+                            <span>有货，可当日出库</span>
+                        </div>
+                    </div>
+                    <div class="dl clearfix">
+                        <div class="dt">
+                            选择规格
+                        </div>
+                        <div class="dd clearfix chooseSize">
+                            <div class="des_item active">
+                                WIFI 16G
+                            </div>
+                            <div class="des_item">
+                                WIFI 16G
+                            </div>
+                            <div class="des_item">
+                                WIFI 16G
+                            </div>
+                            <div class="des_item">
+                                WIFI Cellular 16G
+                            </div>
+                            <div class="des_item">
+                                WIFI 64G
+                            </div>
+                            <div class="des_item">
+                                WIFI 128G
+                            </div>
+                            <div class="des_item">
+                                WIFI Cellular 128G
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dl clearfix chooseColor">
+                        <div class="dt">
+                            选择颜色
+                        </div>
+                        <div class="dd clearfix">
+                            <div class="des_item">
+                                黑色
+                            </div>
+                            <div class="des_item active">
+                                白色
+                            </div>
+                            <div class="des_item">
+                                银灰色
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chooseSum clearfix">
+                        <div class="dt">
+                            数量
+                        </div>
+                        <span class="wrap_num">
+                            <a href="#">-</a><input type="text" value="1"><a href="#">+</a>
+                        </span><span>限购9件</span>
+                    </div>
+                </div>
+                <div class="choosed">
+                    已选择<span> “白色|WIFI 16G”</span>
+                </div>
+                <div class="shopCart">
+                    <a href="#" class="addtoCart"></a>
+                    <span class="line"></span>
+                    <a href="#" class="buy"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="blank_div25">
+</div>
+<div class="des_info clearfix commonWidth">
+    <div class="leftArea">
+       <div class="recommend">
+           <h3 class="title">同价位</h3>
+        <div class="prod_item">
+            <div class="prod_content">
+                <div class="prod_img">
+                    <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                </div>
+                <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                <p class="prod_value">￥899元</p>
+            </div>
+        </div>
+        <div class="prod_item">
+            <div class="prod_content">
+                <div class="prod_img">
+                    <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                </div>
+                <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                <p class="prod_value">￥899元</p>
+            </div>
+        </div>
+        <div class="prod_item">
+            <div class="prod_content">
+                <div class="prod_img">
+                    <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                </div>
+                <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                <p class="prod_value">￥899元</p>
+            </div>
+        </div>
+        <div class="prod_item">
+            <div class="prod_content">
+                <div class="prod_img">
+                    <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                </div>
+                <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                <p class="prod_value">￥899元</p>
+            </div>
+        </div>
+       </div>
+        <div class="blank_div15">
+        </div>
+        <div class="recommend">
+            <h3 class="title">看了最终买</h3>
+            <div class="prod_item">
+                <div class="prod_content">
+                    <div class="prod_img">
+                        <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                    </div>
+                    <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                    <p class="prod_value">￥899元</p>
+                </div>
+            </div>
+            <div class="prod_item">
+                <div class="prod_content">
+                    <div class="prod_img">
+                        <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                    </div>
+                    <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                    <p class="prod_value">￥899元</p>
+                </div>
+            </div>
+            <div class="prod_item">
+                <div class="prod_content">
+                    <div class="prod_img">
+                        <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                    </div>
+                    <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                    <p class="prod_value">￥899元</p>
+                </div>
+            </div>
+            <div class="prod_item">
+                <div class="prod_content">
+                    <div class="prod_img">
+                        <a href="#"><img src="images/shop_img.jpg" alt=""></a>
+                    </div>
+                    <p>产品文字介绍啊说明啊，后续再补充文字介绍文字介绍</p>
+                    <p class="prod_value">￥899元</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rightArea">
+        <div class="des_content">
+            <ul class="introduction clearfix">
+                <li class="active"><span class="intro">产品介绍</span></li>
+                <li><span class="evaluate">商品评价</span></li>
+            </ul>
+            <div class="ad">
+                <a href="#"><img src="images/des_banner.jpg" alt=""></a>
+            </div>
+          <div class="wrap_content">
+              <div class="des_title clearfix">
+                  <h3>强烈推荐</h3>
+                  <h4>货比三家，还选</h4>
+              </div>
+              <p>现在就是买mini的好时候！换代清仓直降，但苹果品质不变！A5双核，内置Lightning闪电接口，正反可插，方便人性。小身材，炫丽的7.9英寸显示屏，7.2mm的厚度，薄如铅笔。女生包包随身携带更时尚！facetime视频通话，与密友24小时畅聊不断线。微信倾力打造，你的智能助理。苹果的牌子就不用我说了，1111补仓，存货不多哦！</p>
+              <div class="blank_div55">
+              </div>
+              <div class="des_title clearfix">
+                  <h3>精美图片</h3>
+                  <h4></h4>
+              </div>
+              <p>苹果iPad7.9 英寸显示屏可带来新的iPad体验，绚丽的显示屏，在每一寸画面中呈现灵动鲜活的美妙影像。
+                  苹果miniMD528CH/A采用500 万像素 iSight 摄像头，清晰记录每一次的幸福。</p>
+              <div class="intro_img">
+                  <a href="#"><img src="images/introduction_img.jpg" alt=""></a>
+              </div>
+          </div>
+        </div>
+        <div class="blank_div25">
+        </div>
+        <div class="des_content">
+            <h3 class="score_title">商品评价</h3>
+            <div class="score_box clearfix">
+                <div class="score">
+                    4.7<span>分</span>
+                </div>
+                <div class="score_result">
+                    <ul class="score_text clearfix">
+                        <li>非常不满意</li>
+                        <li>不满意</li>
+                        <li>一般</li>
+                        <li>满意</li>
+                        <li>非常满意</li>
+                    </ul>
+                    <div class="score_level">
+                        4.7<i></i>
+                    </div>
+                    <p>共18939位网友参与评分</p>
+                </div>
+            </div>
+            <div class="review_tab clearfix">
+                <div class="leftArea">
+                    <ul class="review clearfix">
+                        <li><a href="#" class="active">全部</a></li>
+                        <li><a href="#">满意(2)</a></li>
+                        <li><a href="#">一般(3)</a></li>
+                        <li><a href="#">不满意(1)</a></li>
+                    </ul>
+                </div>
+                <div class="rightArea">
+                    <div class="sort">
+                        <a href="#">时间排序<span></span></a><a href="#">推荐排序<span></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="review_item clearfix">
+                <div class="review_vip fleft">
+                    <img src="images/icon/vip_level.jpg">
+                    <p>61***42</p>
+                    <p>银牌会员</p>
+                </div>
+                <div class="review_detail fleft">
+                    <div class="review_star clearfix">
+                        <span class="star_level"></span>
+                        <span>5分 满意</span>
+                    </div>
+                    <p>很不错，性价比高</p>
+                    <a href="#">踩(0)</a>
+                    <a href="#">顶(0)</a>
+                </div>
+                <div class="review_date fright">
+                    2014-03-07 17:41:44
+                </div>
+            </div>
+            <div class="review_item clearfix">
+                <div class="review_vip fleft">
+                    <img src="images/icon/vip_level.jpg">
+                    <p>61***42</p>
+                    <p>钻石会员</p>
+                </div>
+                <div class="review_detail fleft">
+                    <div class="review_star clearfix">
+                        <span class="star_level"></span>
+                        <span>5分 满意</span>
+                    </div>
+                    <p>很不错，再买一件</p>
+                    <a href="#">踩(0)</a>
+                    <a href="#">顶(0)</a>
+                </div>
+                <div class="review_date fright">
+                    2014-03-07 17:41:44
+                </div>
+            </div>
+            <div class="pages">
+                <a href="#">上一页</a><a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a>
+                <span class="more">...</span><a href="#">200</a><a href="#">下一页</a>
+                <span class="sum">共200页，到第</span><input type="text" class="page_number">页<input type="button" value="确定" class="page_btn">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p><a href="#">电商简介</a><i>|</i><a href="#">电商公告</a><i>|</i><a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：400-000-8888</p>
+    <p>Copyright &copy; 2006 - 2014 版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+    <p class="pics"><a href="#"><img src="images/web.jpg" alt="logo"></a>
+        <a href="#"><img src="images/web.jpg" alt="logo"></a>
+        <a href="#"><img src="images/web.jpg" alt="logo"></a>
+        <a href="#"><img src="images/web.jpg" alt="logo"></a>
+    </p>
+</div>
+</body>
+</html>
